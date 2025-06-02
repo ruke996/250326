@@ -1,0 +1,44 @@
+@import url('https://fonts.googleapis.com/css2?family=Nanum+Pen+Script&family=Noto+Sans+KR:wght@100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+body {
+    font-family: Noto Sans KR, sans-serif;
+    font-size: 20px;    
+}
+
+div {
+    margin: 20px;
+    padding: 20px;
+    border: dotted 10px #ed00ba;
+    font-size: 2em;
+    color: #0000ee;
+    width: 300px;
+}
+
+.membership {
+    display: block;
+    width: 400px;
+    text-align: center;
+    border: solid 2px #cccccc;
+    font-size: 1em;
+}
+
+h1 {
+    color: blue;
+    text-decoration: underline;  /*밑줄*/
+    font-weight: 100; /*굵게*/
+    text-align: center; 
+    border: solid 1px goldenrod;
+}
+
+h2, h3, h4, h5, h6 {
+    font-family: Noto Sans KR, serif;
+}
+
+.divinline {
+    display: inline-block;
+}
+
+table, tr, th, td {
+    border: solid 1px #000000;
+    border-collapse: collapse;
+}
